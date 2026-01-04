@@ -71,6 +71,20 @@ help('keywords')
 
 
 
+# 1. quote(') in the result of print of dictionary is just the sign of the computer(python) to express that is a word. =>
+person_info = {
+   'firstname':'Asabeneh',
+   'lastname':'Yetayeh',
+   'country':'Finland',
+   'city':'Helsinki'
+   }
+print(person_info)
+
+=>{'firstname': 'Asabeneh', 'lastname': 'Yetayeh', 'country': 'Finland', 'city': 'Helsinki'} (O)
+{firstname: Asabeneh, lastname: Yetayeh, country: Finland, city: Helsinki}(X) 
+
+# 2. zip(the built-in function) does not have any value but is likely a machine that creates values when we order using list, tuple or something else. So the result of print(zip(a,b)) is <zip object at 0x79ca4f705b40> which is the adress of zip machine.
 
 # 3. print(type(first_name, last_name, full_name)) -> error. cause the function 'type' can only include one factor. So 'print(type((first_name, last_name, full_name)))' does not cause any error, but the result is tuple.
+
 # 4. the type of the function 'input()' is always string.
