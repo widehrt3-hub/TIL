@@ -44,6 +44,26 @@ exp = num_one ** num_two
 
 floor_division = num_one // num_two
 
+radius = 30
+pi = 3.141592
+area_of_circle = pi * radius ** 2
+circum_of_circle = 2 * pi * radius
+print(area_of_circle)
+print(circum_of_circle)
+
+radius = float(input("Enter radius :"))
+pi = 3.141592
+area_of_circle = pi * radius ** 2
+print(area_of_circle)
+
+first_name = input("First name: ")
+last_name = input("Last name: ")
+country = input("Country: ")
+age = int(input("Age: "))
+
+print(first_name, last_name, country, age)
+
+help('keywords')
 
 
 
@@ -52,5 +72,5 @@ floor_division = num_one // num_two
 
 
 
-
-# 3.print(type(first_name, last_name, full_name)) -> error. cause the function 'type' can only include one factor. So 'print(type((first_name, last_name, full_name)))' does not cause any error, but the result is tuple.
+# 3. print(type(first_name, last_name, full_name)) -> error. cause the function 'type' can only include one factor. So 'print(type((first_name, last_name, full_name)))' does not cause any error, but the result is tuple.
+# 4. the type of the function 'input()' is always string.
