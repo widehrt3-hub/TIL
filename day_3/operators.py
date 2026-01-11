@@ -15,6 +15,15 @@ side_c = float(input("Enter side c :"))
 perimeter = side_a + side_b + side_c
 print("The perimeter of the triangle is", perimeter)
 
+length = float(input("Enter lenght :"))
+width = float(input("Enter width :"))
+area = length * width
+perimeter = 2 * (length + width) 
+print("Area :", area)
+print("Perimeter :", perimeter)
+
+
+
 
 
 
