@@ -27,4 +27,6 @@ print("Perimeter :", perimeter)
 
 
 
+
+
 # 1. the role of a comma in the function print : to change value into string and add a blank between. => print("The area of the triagle is", area)
